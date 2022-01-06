@@ -1,3 +1,23 @@
+Here are the list of APIs as per the task sheet.
+
+**Note**
+	Before making api calls, it would be better to first create few users. and later create store assigning the userId to a particular store.
+
+**HOW TO RUN THE Application**
+	
+	Just Run the JavaAssignmentApplication.java file which is present in com.java.assignment package.
+
+**DB and Oher config Used**
+	MongoDB, Framework used: Spring Boot, API used: RESTFul Web service
+
+**Reason to use MongoDB**
+	Provides flexible schema which makes it easy to evolve and store data in a way that is easy to work with.
+	As a document database, MongoDB makes it easy to the store structured or unstructured data. It uses a JSON-like format to store documents.
+	
+**Reason to use Spring Boot**
+	Dont need to specifically install server. By default server integration is provided.
+	Less boiler plate code.
+
 API Url: http://localhost:8080/user/signup [POST Request]
 
 Request Body
